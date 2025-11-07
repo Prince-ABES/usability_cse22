@@ -172,3 +172,16 @@ ul {
   justify-content: center;
   gap: 10px;
 }
+.example-area{
+  justify-content: center;
+  gap: 30px;
+}
+.example-card{
+  flex-direction: column;
+  width: 23%;
+  background-color: black;
+  color: white !important;
+  justify-content: end;
+  padding: 25px;
+  transition:  0.2s ease-out;
+}
