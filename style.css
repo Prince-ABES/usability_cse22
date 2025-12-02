@@ -127,6 +127,9 @@ ul {
   gap: 10px;
   align-items: start;
 }
+.header-left p {
+  color: var(--primary-text-color) !important;
+}
 
 .header-right img {
   width: 100%;
@@ -187,7 +190,7 @@ ul {
 
 /* example section */
 .example-area {
-  justify-content: center;
+  justify-content: space-between;
   gap: 30px;
   padding-block: 30px;
 }
@@ -209,30 +212,25 @@ ul {
 }
 
 .example-card:nth-child(1) {
-  background: linear-gradient(rgb(0,0,0,0.1),rgb(0,0,0,0.8)),url(assets/asset\ 36.jpeg);
-  /* background-image: url(assets/asset\ 36.jpeg); */
+  background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)),
+    url("./assets/asset\ 36.jpeg");
   background-size: cover;
-  
 }
-
 .example-card:nth-child(2) {
-  background: linear-gradient(rgb(0,0,0,0.1),rgb(0,0,0,0.8)),url(assets/asset\ 37.jpeg);
-  /* background-image: url(assets/asset\ 36.jpeg); */
+  background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)),
+    url("./assets/asset\ 37.jpeg");
   background-size: cover;
 }
-
 .example-card:nth-child(3) {
-  background: linear-gradient(rgb(0,0,0,0.1),rgb(0,0,0,0.8)),url(assets/asset\ 38.jpeg);
-  /* background-image: url(assets/asset\ 36.jpeg); */
+  background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)),
+    url("./assets/asset\ 38.jpeg");
   background-size: cover;
 }
-
 .example-card:nth-child(4) {
-  background: linear-gradient(rgb(0,0,0,0.1),rgb(0,0,0,0.8)),url(assets/asset\ 39.jpeg);
-  /* background-image: url(assets/asset\ 36.jpeg); */
+  background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)),
+    url("./assets/asset\ 39.jpeg");
   background-size: cover;
 }
-
 /* cta section */
 
 .cta-section {
@@ -242,7 +240,7 @@ ul {
   padding-block: 100px;
 }
 
-.cta-section p,h2 {
+.cta-section h2 {
   color: white !important;
 }
 
@@ -251,9 +249,8 @@ footer {
   padding-block: 80px;
   background-color: #ebf2fa;
 }
-
 .footer-section {
-  align-items:start;
+  align-items: start;
   justify-content: space-between;
 }
 
@@ -267,16 +264,6 @@ footer {
   font-weight: 700;
   text-transform: capitalize;
 }
-
 .col-menu a {
   color: var(--primary-text-color);
-}
-
-
-.subfooter-container {
-  justify-content: center;
-  gap: 20px;
-  align-items: center;
-  padding: var(--padding-inline-section);
-  background-color: #b9cde4;
 }
